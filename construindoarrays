@@ -1,0 +1,30 @@
+package com.mycompany.array;
+/**
+ *
+ * @Pabline Ribeiro senai Prof André
+ */
+public class Array {
+
+    public static void main(String[] args) {
+        int[]number = new int[]{1,2,3,4,5,6,7,8,9,10};//conteudo da lis ou array
+        
+        for(int i =0; i <number.length; i++) {//atribui o contador i para contar as posicoes e exibir as mesmas
+            if (number[i]<5){
+                System.out.println(number[i]+" Menor que 5");
+            }else {
+                if(number[i]==5){
+                    System.out.println(number[i]+" Igual a 5 ");
+                }else {
+                System.out.println(number[i]+" Maior que 5 ");
+                //break;(com break ele para no 6)
+                }
+                }
+            /*para exibir se o numero é par ou impar
+            if(number[i]%2==0){
+                System.out.println(number[i]+"é par");
+            }else{
+                System.out.println(number[i]+"é impar");
+            }*/
+        }
+    }
+}
